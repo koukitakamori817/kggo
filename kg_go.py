@@ -37,7 +37,7 @@ class kggo(): #ブラウザでの操作は基本headless modeで行う →→→
         inputfrom.send_keys('gostation')
 
         inputto = browser.find_element_by_name('to')
-        inputto.send_keys('三田')
+        inputto.send_keys('新三田')
 
         timeselecthh = browser.find_element_by_id('hh')
         selecthour = Select(timeselecthh)
