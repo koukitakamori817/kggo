@@ -34,7 +34,7 @@ class kggo(): #ブラウザでの操作は基本headless modeで行う →→→
         browser.get(url)
         
         inputfrom = browser.find_element_by_name('from')
-        inputfrom.send_keys('関西学院大学')
+        inputfrom.send_keys('gostation')
 
         inputto = browser.find_element_by_name('to')
         inputto.send_keys('三田')
